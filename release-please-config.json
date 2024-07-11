@@ -10,7 +10,23 @@
       "prerelease": false,
       "initial-version": "0.12.10-rc.1",
       "include-component-in-tag": true,
-      "include-v-in-tag": true
+      "include-v-in-tag": true,
+      "extra-label": "helm",
+      "separate-pull-requests": false
+    },
+    "docker": {
+      "changelog-path": "CHANGELOG.md",
+      "release-type": "simple",
+      "changelog-type": "default",
+      "bump-minor-pre-major": false,
+      "bump-patch-for-minor-pre-major": false,
+      "draft": false,
+      "prerelease": false,
+      "initial-version": "4.0.2-1.0.0",
+      "include-component-in-tag": true,
+      "include-v-in-tag": true,
+      "extra-label": "docker",
+      "separate-pull-requests": false
     }
   },
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
