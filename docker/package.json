@@ -1,0 +1,11 @@
+{
+  "name": "superset",
+  "version": "4.0.2-1.0.0",
+  "description": "Superset docker image",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirze/superset"
+  },
+  "homepage": "https://okdp.io/",
+  "license": "Apache-2.0"
+}
