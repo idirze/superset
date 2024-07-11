@@ -39,6 +39,6 @@ defaults:
 
 jobs:
   release-please:
-    uses: idirze/workflows/.github/workflows/helm-release-please.yml@main
+    uses: idirze/workflows/.github/workflows/helm-docker-release-please.yml@main
     secrets: inherit
                 
